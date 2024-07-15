@@ -46,6 +46,11 @@ header span {
     gap: 2rem;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 576px) {
     nav {
         display: none;
@@ -61,6 +66,10 @@ header span {
     header {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .flex {
+        flex-direction: column;
     }
 
     nav.mobile {
